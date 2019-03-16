@@ -1,0 +1,2 @@
+ls /home | grep -v "lost+found"
+# le lost+found semble etre un fichier temporaires des VM

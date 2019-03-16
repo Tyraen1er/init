@@ -1,0 +1,6 @@
+Avec l aide du daemon "cron" qui execute les scripts suivant dans /etc
+
+#cron.hourly
+#cron.daily
+#cron.monthly
+#cron.weekly

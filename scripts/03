@@ -1,0 +1,207 @@
+#!/bin/bash
+
+clear
+echo -e "1- commande: \\nRécupérez la liste des interfaces réseau de la machine sans afficher aucun détail\\npour ces interfaces. Vraiment juste la liste des noms.\\n"
+cat ../network/01
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "2- commande: \\nIdentifiez et affichez les caractéristiques de l’interface Ethernet :\\n(a) Indiquez l’adresse de Broadcast\\n(b) Indiquez toutes les adresses IP qui font partie du même sous-réseau\\n"
+cat ../network/02
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "3- commande: \\nIdentifiez l’adresse MAC de la carte Wi-Fi\\n"
+cat ../network/03
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "4- commande: \\nIdentifiez la gateway par défaut dans la table de routage\\n"
+cat ../network/04
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "5- commande: \\nIdentifiez l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org\\n"
+cat ../network/05
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "6- déduction: \\nRécupérez le path complet du fichier dans lequel est écrit l’adresse IP du serveur\\nDNS que vous utilisez\\n"
+cat ../network/06
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "7- commande: \\nInterrogez un serveur DNS externe sur le nom de domaine slash16.org (ex :\\ngoogle 8.8.8.8)\\n"
+cat ../network/07
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "8- déduction: \\nTrouver chez quel hébergeur est le site de Slash16\\n"
+cat ../network/08
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "9- sortie de commande: \\nTrouver l’IP Publique de 42.fr\\n"
+cat ../network/09
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "10- commande: \\nIdentifiez les différents appareils réseaux entre votre poste et le domaine slash16.org\\n"
+cat ../network/10
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "11- déduction: \\nTrouvez grâce au résultat de la commande précédente le nom et l’IP du matériel\\nqui fait le lien entre vous (réseau local) et l’extérieur\\n"
+cat ../network/11
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "12- commande: \\nTrouvez l’IP qui vous a été assignée par le serveur dhcp\\n"
+cat ../network/12
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "13- sortie de commande: \\nGrâce a la question précédente et au reverse DNS retrouvez le nom de votre host\\n"
+cat ../network/13
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "14- commande: \\nQuel est le fichier contenant les entrées locales DNS ?\\n"
+cat ../network/14
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "15- commande: \\nFaites pointer intra.42.fr sur l’adresse suivante 46.19.122.85\\n"
+cat ../network/15
+read  -n 1 -p "Awaiting input..."
+
+# NEW PART
+clear
+echo -e "Passage a la correction de la partie SYSTEM"
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "1- déduction: \\nDans quel fichier se trouve la version installée de votre Debian ?\\n"
+cat ../system/01
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "2- commande: \\nQuelle commande permet de renommer votre système ?\\n"
+cat ../system/02
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "3- déduction: \\nQuel est le fichier à modifier pour rendre cela permanent ?\\n"
+cat ../system/03
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "4- commande: \\nQuelle commande donne le temps depuis lequel votre système à été démarré la\\ndernière fois ?\\n"
+cat ../system/04
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "5- commande: \\nDonnez une commande qui détermine l’état du service SSH\\n"
+cat ../system/05
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "6- commande: \\nDonnez une commande pour redémarrer le service SSH\\n"
+cat ../system/06
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "7- commande: \\nDéterminez le PID du service SSHD\\n"
+cat ../system/07
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "8- déduction: \\nQuel fichier contient les clés RSA des machines autorisées à se connecter via SSH ?\\n"
+cat ../system/08
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "9- commande: \\nQuelle commande permet de savoir quelles personnes sont connectées sur le systeme ?\\n"
+cat ../system/09
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "10- commande: \\nQuelle commande permet de lister les tables de partitions des disques ?\\n"
+cat ../system/10
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "11- commande: \\nQuelle commande permet d’afficher l’espace disponible et utilisé sur le système\\nd’une manière humainement compréhensible ?\\n"
+cat ../system/11
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "12- commande: \\nDéterminez la taille exacte de chaque dossier de /var d’une manière humainement\\ncompréhensible suivi du chemin de celui-ci.\\n"
+cat ../system/12
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "13- commande: \\nTrouvez une commande qui permet, en temps réel, de trouver les processus en\\ncours d’exécution\\n"
+cat ../system/13
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "14- commande: \\nLancez en background la commande tail -f /var/log/syslog\\n"
+cat ../system/14
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "15- commande: \\nTrouvez une commande qui permet de tuer le processus de la commande en background\\n"
+cat ../system/15
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "16- déduction: \\nTrouvez un service qui permet de lancer des tâches à horaires régulières\\n"
+cat ../system/16
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "17- commande: \\nTrouvez une commande qui, en parallèle de la session graphique, permet de se\\nconnecter en ssh sur la machine\\n"
+cat ../system/17
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "18- commande: \\nDonnez une commande qui permet d’arrêter le service ssh\\n"
+cat ../system/18
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "19- commande: \\nListez les services qui se lancent automatiquement lorsque la machine boot et\\nindiquez le nom donné à ce type de service\\n"
+cat ../system/19
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "20- commande: \\nListez tout les utilisateurs existants sur la machine\\n"
+cat ../system/20
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "21- commande: \\nListez tout les utilisateurs réels de la machine\\n"
+cat ../system/21
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "22- commande: \\nQuelle commande permet d’ajouter un utilisateur local supplémentaire ?\\n"
+cat ../system/22
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "23- commande: \\nExpliquez comment se connecter en tant que ce nouvelle utilisateur. (En session\\ngraphique et en session ssh)"
+cat ../system/23
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "24- commande: \\nQuelle commande permet de lister tout les packages INSTALLÉS sur la machine ?\\n"
+cat ../system/24
+read  -n 1 -p "Awaiting input..."
+
+
+clear
+echo -e "Les scripts a verifier a la main. Bonne journée !"
+
+# END

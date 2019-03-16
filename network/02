@@ -1,0 +1,5 @@
+# a
+ifconfig | grep "broadcast" && echo ""
+
+# b
+arp -a

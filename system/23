@@ -1,0 +1,5 @@
+Pour se connecter en session graphique il faut etre sur la machine et entrer ses identifiants au démarrage (gestionnaire d'utilisateur)
+
+connexion ssh: ssh user@ip
+
+switch user en ssh: su <user>
