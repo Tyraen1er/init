@@ -1,3 +1,10 @@
 #!/bin/bash
 
-sudo userdel $1
+echo -e "Quel utilisateur souhaitez vous logout ?" && who
+pkill -KILL -u $1
+
+echo -e "Souhaitez-vous également supprimer l utilisateur ?\\ny/N\\n"
+read answ
+if [ answ = "y" || answ = "yes"]; then
+	sudo userdel $1
+fi

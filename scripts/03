@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# NEW PART
+clear
+echo -e "Correction de la partie NETWORK"
+read  -n 1 -p "Awaiting input..."
+
 clear
 echo -e "1- commande: \\nRécupérez la liste des interfaces réseau de la machine sans afficher aucun détail\\npour ces interfaces. Vraiment juste la liste des noms.\\n"
 cat ../network/01
@@ -171,7 +176,7 @@ cat ../system/18
 read  -n 1 -p "Awaiting input..."
 
 clear
-echo -e "19- commande: \\nListez les services qui se lancent automatiquement lorsque la machine boot et\\nindiquez le nom donné à ce type de service\\n"
+echo -e "19- sortie de commande: \\nListez les services qui se lancent automatiquement lorsque la machine boot et\\nindiquez le nom donné à ce type de service\\n"
 cat ../system/19
 read  -n 1 -p "Awaiting input..."
 
@@ -191,7 +196,7 @@ cat ../system/22
 read  -n 1 -p "Awaiting input..."
 
 clear
-echo -e "23- commande: \\nExpliquez comment se connecter en tant que ce nouvelle utilisateur. (En session\\ngraphique et en session ssh)"
+echo -e "23- déduction: \\nExpliquez comment se connecter en tant que ce nouvelle utilisateur. (En session\\ngraphique et en session ssh)"
 cat ../system/23
 read  -n 1 -p "Awaiting input..."
 
@@ -201,7 +206,22 @@ cat ../system/24
 read  -n 1 -p "Awaiting input..."
 
 
+# NEW PART
 clear
-echo -e "Les scripts a verifier a la main. Bonne journée !"
+echo -e "Passage a la correction de la partie SCRIPTS"
+read  -n 1 -p "Awaiting input..."
 
+clear
+echo -e "01- Réalisez un script qui affiche seulement le login, le UID et le Path de chaques\\nentrée du fichier /etc/passwd\\n"
+cat ../system/23
+read  -n 1 -p "Awaiting input..."
+
+clear
+echo -e "02- Réalisez un script qui permet de supprimer un user LOGUÉ sur la machine\\n"
+cat ../system/23
+read  -n 1 -p "Awaiting input..."
+
+
+clear
+echo "Fin du script d'aide a la correction. Bonne journée !"
 # END
